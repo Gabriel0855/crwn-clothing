@@ -22,7 +22,7 @@ const Header = ({currentUser, hidden}) => (
                 :
                 <Link className='option' to='/signin'>SIGN-IN</Link>
             }
-            <Link className='option'><CartIcon /></Link>
+            <Link to='' className='option'><CartIcon /></Link>
         </div>
         {
             hidden ? null :
