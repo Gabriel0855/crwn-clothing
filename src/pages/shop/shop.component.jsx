@@ -1,11 +1,7 @@
 import React from 'react';
-import {createStructuredSelector} from 'reselect';
-import {selectCollections} from '../../redux/shop/shop.selectors';
 import CollectionsOverview from '../../components/collections-overview/collections-overview.component';
 import CollectionPage from '../collection/collection.component';
-import {Link} from 'react-router-dom';
 import {Route} from 'react-router-dom';
-import {connect} from 'react-redux';
 
 const ShopPage = ({match}) => {
     return (
